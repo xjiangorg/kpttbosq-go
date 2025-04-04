@@ -18,7 +18,7 @@ parent:
 components:
   - name: image-build
     image:
-      imageName: go-image:latest
+      imageName: go-image:new
       dockerfile:
         uri: docker/Dockerfile
         buildContext: .
